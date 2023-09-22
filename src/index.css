@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #ccd9ed;
+}
+
+html::-webkit-scrollbar {
+    /* no scroll-bar in chrome */
+    display: none;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+table tr:hover {
+    background-color: #9fa9a3;
+}
+
+th {
+    background-color: #c0ded9;
+}
